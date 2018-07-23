@@ -55,13 +55,13 @@ function imageClick () {
     $("#score").html(counter);
     if (counter === targetNumber) {
         wins++;
-        $("#wins").html("wins: " + wins);
+        $("#wins").html("Wins: " + wins);
         alert("you have won!")
         totalReset();
     }
     else if (counter > targetNumber) {
         losses++;
-        $("#losses").html("losses: " + losses);
+        $("#losses").html("Losses: " + losses);
         totalReset();
         alert("try again")
     };

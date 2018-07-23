@@ -28,7 +28,8 @@ h2{
 }
 
 h2:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    opacity: .5;
 }
 
 .body-container {
@@ -38,8 +39,20 @@ h2:hover {
     margin-bottom: 25px;
 }
 
+.body-container p:hover {
+opacity: .5;
+}
+
+#targetnumber {
+    border: solid 2px ivory;
+    border-radius: 45px;
+    max-width: 5%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
 #crystal-images {
-    margin-top: 75px;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -56,4 +69,5 @@ h2:hover {
 }
 #losses{
     text-align: center;
+    margin-bottom: 0;
 }
