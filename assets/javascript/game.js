@@ -8,7 +8,7 @@
     var wins=0;
     var losses=0;
     var counter=0;
-    var images = ["images/2-Star_Crystal.png", "images/Crystal_iso8.png","images/Crystal_quest.png","images/Crystal_cosmic.png"];
+    var images = ["../unit-4-game/assets/images/2-Star_Crystal.png", "../unit-4-game/assets/images/Crystal_iso8.png","../unit-4-game/assets/images/Crystal_quest.png","../unit-4-game/assets/images/Crystal_cosmic.png"];
 
 
     // Defining functions
